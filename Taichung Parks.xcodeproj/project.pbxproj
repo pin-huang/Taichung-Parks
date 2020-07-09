@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5329284124B75A13000F61B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329284024B75A13000F61B9 /* AppDelegate.swift */; };
+		5329284324B75A13000F61B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329284224B75A13000F61B9 /* SceneDelegate.swift */; };
+		5329284524B75A13000F61B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329284424B75A13000F61B9 /* ViewController.swift */; };
+		5329284824B75A13000F61B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5329284624B75A13000F61B9 /* Main.storyboard */; };
+		5329284A24B75A18000F61B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5329284924B75A18000F61B9 /* Assets.xcassets */; };
+		5329284D24B75A18000F61B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5329284B24B75A18000F61B9 /* LaunchScreen.storyboard */; };
+		5329285824B75A18000F61B9 /* Taichung_ParksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329285724B75A18000F61B9 /* Taichung_ParksTests.swift */; };
+		5329286324B75A18000F61B9 /* Taichung_ParksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329286224B75A18000F61B9 /* Taichung_ParksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5329285424B75A18000F61B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5329283524B75A13000F61B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5329283C24B75A13000F61B9;
+			remoteInfo = "Taichung Parks";
+		};
+		5329285F24B75A18000F61B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5329283524B75A13000F61B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5329283C24B75A13000F61B9;
+			remoteInfo = "Taichung Parks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5329283D24B75A13000F61B9 /* Taichung Parks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taichung Parks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5329284024B75A13000F61B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5329284224B75A13000F61B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5329284424B75A13000F61B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5329284724B75A13000F61B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5329284924B75A18000F61B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5329284C24B75A18000F61B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5329284E24B75A18000F61B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5329285324B75A18000F61B9 /* Taichung ParksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taichung ParksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5329285724B75A18000F61B9 /* Taichung_ParksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taichung_ParksTests.swift; sourceTree = "<group>"; };
+		5329285924B75A18000F61B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5329285E24B75A18000F61B9 /* Taichung ParksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taichung ParksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5329286224B75A18000F61B9 /* Taichung_ParksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taichung_ParksUITests.swift; sourceTree = "<group>"; };
+		5329286424B75A18000F61B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5329283A24B75A13000F61B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5329285024B75A18000F61B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5329285B24B75A18000F61B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5329283424B75A13000F61B9 = {
+			isa = PBXGroup;
+			children = (
+				5329283F24B75A13000F61B9 /* Taichung Parks */,
+				5329285624B75A18000F61B9 /* Taichung ParksTests */,
+				5329286124B75A18000F61B9 /* Taichung ParksUITests */,
+				5329283E24B75A13000F61B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5329283E24B75A13000F61B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5329283D24B75A13000F61B9 /* Taichung Parks.app */,
+				5329285324B75A18000F61B9 /* Taichung ParksTests.xctest */,
+				5329285E24B75A18000F61B9 /* Taichung ParksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5329283F24B75A13000F61B9 /* Taichung Parks */ = {
+			isa = PBXGroup;
+			children = (
+				5329284024B75A13000F61B9 /* AppDelegate.swift */,
+				5329284224B75A13000F61B9 /* SceneDelegate.swift */,
+				5329284424B75A13000F61B9 /* ViewController.swift */,
+				5329284624B75A13000F61B9 /* Main.storyboard */,
+				5329284924B75A18000F61B9 /* Assets.xcassets */,
+				5329284B24B75A18000F61B9 /* LaunchScreen.storyboard */,
+				5329284E24B75A18000F61B9 /* Info.plist */,
+			);
+			path = "Taichung Parks";
+			sourceTree = "<group>";
+		};
+		5329285624B75A18000F61B9 /* Taichung ParksTests */ = {
+			isa = PBXGroup;
+			children = (
+				5329285724B75A18000F61B9 /* Taichung_ParksTests.swift */,
+				5329285924B75A18000F61B9 /* Info.plist */,
+			);
+			path = "Taichung ParksTests";
+			sourceTree = "<group>";
+		};
+		5329286124B75A18000F61B9 /* Taichung ParksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5329286224B75A18000F61B9 /* Taichung_ParksUITests.swift */,
+				5329286424B75A18000F61B9 /* Info.plist */,
+			);
+			path = "Taichung ParksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5329283C24B75A13000F61B9 /* Taichung Parks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5329286724B75A18000F61B9 /* Build configuration list for PBXNativeTarget "Taichung Parks" */;
+			buildPhases = (
+				5329283924B75A13000F61B9 /* Sources */,
+				5329283A24B75A13000F61B9 /* Frameworks */,
+				5329283B24B75A13000F61B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taichung Parks";
+			productName = "Taichung Parks";
+			productReference = 5329283D24B75A13000F61B9 /* Taichung Parks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5329285224B75A18000F61B9 /* Taichung ParksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5329286A24B75A18000F61B9 /* Build configuration list for PBXNativeTarget "Taichung ParksTests" */;
+			buildPhases = (
+				5329284F24B75A18000F61B9 /* Sources */,
+				5329285024B75A18000F61B9 /* Frameworks */,
+				5329285124B75A18000F61B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5329285524B75A18000F61B9 /* PBXTargetDependency */,
+			);
+			name = "Taichung ParksTests";
+			productName = "Taichung ParksTests";
+			productReference = 5329285324B75A18000F61B9 /* Taichung ParksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5329285D24B75A18000F61B9 /* Taichung ParksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5329286D24B75A18000F61B9 /* Build configuration list for PBXNativeTarget "Taichung ParksUITests" */;
+			buildPhases = (
+				5329285A24B75A18000F61B9 /* Sources */,
+				5329285B24B75A18000F61B9 /* Frameworks */,
+				5329285C24B75A18000F61B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5329286024B75A18000F61B9 /* PBXTargetDependency */,
+			);
+			name = "Taichung ParksUITests";
+			productName = "Taichung ParksUITests";
+			productReference = 5329285E24B75A18000F61B9 /* Taichung ParksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5329283524B75A13000F61B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5329283C24B75A13000F61B9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5329285224B75A18000F61B9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5329283C24B75A13000F61B9;
+					};
+					5329285D24B75A18000F61B9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5329283C24B75A13000F61B9;
+					};
+				};
+			};
+			buildConfigurationList = 5329283824B75A13000F61B9 /* Build configuration list for PBXProject "Taichung Parks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5329283424B75A13000F61B9;
+			productRefGroup = 5329283E24B75A13000F61B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5329283C24B75A13000F61B9 /* Taichung Parks */,
+				5329285224B75A18000F61B9 /* Taichung ParksTests */,
+				5329285D24B75A18000F61B9 /* Taichung ParksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5329283B24B75A13000F61B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5329284D24B75A18000F61B9 /* LaunchScreen.storyboard in Resources */,
+				5329284A24B75A18000F61B9 /* Assets.xcassets in Resources */,
+				5329284824B75A13000F61B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5329285124B75A18000F61B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5329285C24B75A18000F61B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5329283924B75A13000F61B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5329284524B75A13000F61B9 /* ViewController.swift in Sources */,
+				5329284124B75A13000F61B9 /* AppDelegate.swift in Sources */,
+				5329284324B75A13000F61B9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5329284F24B75A18000F61B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5329285824B75A18000F61B9 /* Taichung_ParksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5329285A24B75A18000F61B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5329286324B75A18000F61B9 /* Taichung_ParksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5329285524B75A18000F61B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5329283C24B75A13000F61B9 /* Taichung Parks */;
+			targetProxy = 5329285424B75A18000F61B9 /* PBXContainerItemProxy */;
+		};
+		5329286024B75A18000F61B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5329283C24B75A13000F61B9 /* Taichung Parks */;
+			targetProxy = 5329285F24B75A18000F61B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5329284624B75A13000F61B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5329284724B75A13000F61B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5329284B24B75A18000F61B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5329284C24B75A18000F61B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5329286524B75A18000F61B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5329286624B75A18000F61B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5329286824B75A18000F61B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L3Q96LR88;
+				INFOPLIST_FILE = "Taichung Parks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pincheng.Taichung-Parks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5329286924B75A18000F61B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L3Q96LR88;
+				INFOPLIST_FILE = "Taichung Parks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pincheng.Taichung-Parks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5329286B24B75A18000F61B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L3Q96LR88;
+				INFOPLIST_FILE = "Taichung ParksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pincheng.Taichung-ParksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taichung Parks.app/Taichung Parks";
+			};
+			name = Debug;
+		};
+		5329286C24B75A18000F61B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L3Q96LR88;
+				INFOPLIST_FILE = "Taichung ParksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pincheng.Taichung-ParksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taichung Parks.app/Taichung Parks";
+			};
+			name = Release;
+		};
+		5329286E24B75A18000F61B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L3Q96LR88;
+				INFOPLIST_FILE = "Taichung ParksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pincheng.Taichung-ParksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taichung Parks";
+			};
+			name = Debug;
+		};
+		5329286F24B75A18000F61B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L3Q96LR88;
+				INFOPLIST_FILE = "Taichung ParksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pincheng.Taichung-ParksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taichung Parks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5329283824B75A13000F61B9 /* Build configuration list for PBXProject "Taichung Parks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5329286524B75A18000F61B9 /* Debug */,
+				5329286624B75A18000F61B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5329286724B75A18000F61B9 /* Build configuration list for PBXNativeTarget "Taichung Parks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5329286824B75A18000F61B9 /* Debug */,
+				5329286924B75A18000F61B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5329286A24B75A18000F61B9 /* Build configuration list for PBXNativeTarget "Taichung ParksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5329286B24B75A18000F61B9 /* Debug */,
+				5329286C24B75A18000F61B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5329286D24B75A18000F61B9 /* Build configuration list for PBXNativeTarget "Taichung ParksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5329286E24B75A18000F61B9 /* Debug */,
+				5329286F24B75A18000F61B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5329283524B75A13000F61B9 /* Project object */;
+}
