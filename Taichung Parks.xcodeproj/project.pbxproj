@@ -15,6 +15,8 @@
 		5329284D24B75A18000F61B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5329284B24B75A18000F61B9 /* LaunchScreen.storyboard */; };
 		5329285824B75A18000F61B9 /* Taichung_ParksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329285724B75A18000F61B9 /* Taichung_ParksTests.swift */; };
 		5329286324B75A18000F61B9 /* Taichung_ParksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329286224B75A18000F61B9 /* Taichung_ParksUITests.swift */; };
+		5329287124B75E42000F61B9 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5329287024B75E42000F61B9 /* crayon_1-1.ttf */; };
+		5329287324B7604D000F61B9 /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5329287224B7604D000F61B9 /* jf-openhuninn-1.1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5329285E24B75A18000F61B9 /* Taichung ParksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taichung ParksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5329286224B75A18000F61B9 /* Taichung_ParksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taichung_ParksUITests.swift; sourceTree = "<group>"; };
 		5329286424B75A18000F61B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5329287024B75E42000F61B9 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		5329287224B7604D000F61B9 /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				5329284024B75A13000F61B9 /* AppDelegate.swift */,
 				5329284224B75A13000F61B9 /* SceneDelegate.swift */,
+				5329287224B7604D000F61B9 /* jf-openhuninn-1.1.ttf */,
+				5329287024B75E42000F61B9 /* crayon_1-1.ttf */,
 				5329284424B75A13000F61B9 /* ViewController.swift */,
 				5329284624B75A13000F61B9 /* Main.storyboard */,
 				5329284924B75A18000F61B9 /* Assets.xcassets */,
@@ -231,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5329287324B7604D000F61B9 /* jf-openhuninn-1.1.ttf in Resources */,
+				5329287124B75E42000F61B9 /* crayon_1-1.ttf in Resources */,
 				5329284D24B75A18000F61B9 /* LaunchScreen.storyboard in Resources */,
 				5329284A24B75A18000F61B9 /* Assets.xcassets in Resources */,
 				5329284824B75A13000F61B9 /* Main.storyboard in Resources */,
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
